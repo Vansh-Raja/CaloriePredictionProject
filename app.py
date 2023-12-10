@@ -144,10 +144,6 @@ def dashboard():
                                heart_rate_pie= heart_rate_pie
                             )
 
-
-# Afterwards can just redirect it to the login page directly, or can display a
-# Homepage with dev info/project info and login button.
-
 @app.route('/')
 def method_name():
     return "HELLO WORLD!"
